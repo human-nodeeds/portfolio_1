@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Soumya Kumar Ghosh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h3>Soumya Kumar Ghosh</h3>
+        <p>I am new to programming and building my skills</p>
+        <nav>
+            <ul>
+                <button><li><a href="#about">About</a></li></button>
+                <button><li><a href="#skills">Skills</a></li></button>
+                <button><li><a href="#projects">Projects</a></li></button>
+                <button><li><a href="#contact">Contact</a></li></button>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I am Soumya, in the starting phase of the coding world with interests in 
+           Java, Python, JavaScript, Web Development & some knowledge of 
+           Machine Learning. I enjoy learning and working on projects to solve real-life problems.</p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2 style="text-align: center;">Skills</h2>
+        <table border="1" class="center-table">
+            <tr>
+                <td><img src="image/image1.png" alt="Core Java" width="100"><p>Core Java</p></td>
+                <td><img src="image/image2.png" alt="Python" width="100"><p>Python</p></td>
+                <td><img src="image/image3.png" alt="HTML" width="100"><p>HTML</p></td>
+                <td><img src="image/image4.png" alt="CSS" width="100"><p>CSS</p></td>
+                <td><img src="image/image5.png" alt="JavaScript" width="100"><p>JavaScript</p></td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" style="text-align: center;">
+        <h2>Projects</h2>
+        <h3>Web Projects</h3>
+        <div>
+            <h4>Portfolio</h4>
+            <p>Personal portfolio website showing my work.</p>
+        </div>
+
+        <h3>Java Projects</h3>
+        <div>
+            <h4>Sample Java Application</h4>
+            <p>A simple Java CRUD application.</p>
+        </div>
+    </section>
+
+    <!-- Projects ZIp File Added and Git repo-->
+    <section>
+    <h2>Projects with Source Code</h2>
+    <ul>
+        <li>
+            <strong>Portfolio Website</strong> - Built using HTML, CSS, and JavaScript 
+            <a href="https://github.com/yourusername/portfolio" target="_blank">View Source</a>
+        </li>
+        <li>
+            <strong>E-commerce Website</strong> - Helps in finding real product prices online 
+        </li>
+        <li>
+            <strong>Machine Learning</strong> - Predicts land price using Scikit-learn 
+        </li>
+    </ul>
+</section>
+
+    <!-- Journey Of mYself-->
+    <section>
+        <h2>About my Journey</h2>
+        <div>
+            <h4>Secondary Schooling</h4>
+            <p>Vidyasagar Shishu Niketan, India</p>
+            <small>2020 Passout</small>
+        </div>
+        <div>
+            <h4>Higher Secondary Schooling</h4>
+            <p>Vidyasagar Shishu Niketan, India</p>
+            <small>2022 Passout</small>
+        </div>
+        <div>
+            <h4>Bachelor in Computer Science & Engineering</h4>
+            <p>College of Engineering & Management, Kolaghat</p>
+            <small>2026 Passout</small>
+        </div>
+    </section>
+
+        <!-- Contact Me  -->
+    <section id="contact">
+        <form action="ContactServlet" method="post">
+            <table border="1">
+                <tr><td colspan="2"><h2>Contact Me</h2></td></tr>
+                <tr>
+                    <td><label for="name">Your Name:</label></td>
+                    <td><input type="text" id="name" name="name" placeholder="Enter your name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Your Email:</label></td>
+                    <td><input type="email" id="email" name="email" placeholder="Your Email" required></td>
+                </tr>
+                <tr>
+                    <td><label for="number">Phone Number:</label></td>
+                    <td><input type="tel" id="number" name="number" placeholder="Your Mobile Number" pattern="[0-9]{10}" required></td>
+                </tr>
+                <tr>
+                    <td><label for="message">Your Message:</label></td>
+                    <td><textarea name="message" id="message" placeholder="Message" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><button type="submit">Submit</button></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <strong>Contact Details:</strong>
+                        <p>Phone: <a href="tel:9679470162">9679470162</a></p>
+                        <p>Email: <a href="mailto:ghoshsoumya512@gmail.com">ghoshsoumya512@gmail.com</a></p>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </section>
+
+</body>
+</html>

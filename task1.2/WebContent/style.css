@@ -1,0 +1,116 @@
+body {
+    background-color: blanchedalmond;
+    color: rgb(164, 90, 0);
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    background: #efffb6;
+    color: black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+header h3 {
+    font-size: 28px;
+    margin: 0;
+}
+header p {
+    font-size: 16px;
+    color: #f22fff;
+    margin: 5px 0;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 0;
+}
+header ul li {
+    margin: 0 15px;
+}
+header ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+section {
+    margin: 40px;
+    padding: 20px;
+    background: #ffffff10;
+    border-radius: 10px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+#about p {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+#skills table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+#skills td {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+#skills img {
+    display: block;
+    margin: auto;
+}
+
+
+#project div {
+    margin: 15px;
+}
+
+
+.journey div {
+    margin: 10px;
+    padding: 10px;
+    border-left: 4px solid #333;
+    background: #2cffdf33;
+    border-radius: 6px;
+}
+
+form table {
+    width: 100%;
+    border-collapse: collapse;
+}
+form td {
+    padding: 10px;
+    border: 1px solid #2cffdf;
+}
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+form button {
+    background: #efffb6;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+form button:hover {
+    background: #dfffa0;
+}
